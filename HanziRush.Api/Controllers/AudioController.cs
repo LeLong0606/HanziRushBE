@@ -26,6 +26,7 @@ namespace HanziRush.Api.Controllers
                 return File(result.Data, "audio/mpeg");
             }
 
+
             return BadRequest(result);
         }
     }
